@@ -13,7 +13,7 @@ st.subheader("DWDM")
 with open("dwdm.pdf", "rb") as file:
     btn = st.download_button(
     label="DWDM",
-    data=docx,
+    data=file,
     file_name="dwdm.pdf",
     mime="pdf"
     )
